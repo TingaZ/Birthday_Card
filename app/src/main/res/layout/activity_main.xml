@@ -12,44 +12,26 @@
         >
 
         <ImageView
-            android:src="@drawable/day"
+            android:src="@drawable/newbirth"
             android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_weight="4"
-            android:scaleType="center"
+            android:scaleType="fitXY"
             />
 
 
-        <EditText
-            android:hint="Type your message.."
-            android:layout_width="match_parent"
-            android:layout_height="0sp"
-            android:layout_weight="1"
-
-            />
-
-
-        <LinearLayout
+        <TextView
+            android:text="Enjoy your Day Mom!!!"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
-        <Button
-            android:text="Choose file..."
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:background="#AEEA00"
+            android:textStyle="italic"
+            android:textColor="#607D8B"
+            android:textSize="37sp"
             />
 
-            <Button
-                android:id="@+id/send"
-                android:text="send"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
 
-                />
-    </LinearLayout>
+
 
         </LinearLayout>
 
